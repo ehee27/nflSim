@@ -1,0 +1,208 @@
+body {
+  font-size: 10pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2pt solid rgb(132, 21, 21);
+}
+.App p {
+  font-family: 'Mukta', sans-serif;
+  font-size: 16pt;
+  /* color: rgb(255, 138, 42); */
+}
+.Header {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(185, 185, 185);
+}
+.Header h1 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 30pt;
+}
+.NavBar {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(129, 129, 129);
+  width: 100%;
+}
+.NavBar ul {
+  display: flex;
+  list-style: none;
+}
+.NavBar li a {
+  border: 2pt solid rgb(51, 51, 51);
+  background-color: rgb(44, 97, 255);
+  color: white;
+  border-radius: 0.25rem;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.NavBar li a:hover {
+  border: 2pt solid rgb(51, 51, 51);
+  background-color: rgb(80, 124, 253);
+  color: white;
+  border-radius: 0.25rem;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Home {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.TeamCard {
+  border: 2pt solid rgb(211, 211, 211);
+  background-color: rgb(35, 50, 127);
+  box-shadow: 2px 3px 5px #878787;
+  border-radius: 0.5rem;
+  width: 35vw;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+.TeamCard:hover {
+  border: 2pt solid rgb(243, 243, 243);
+  background-color: rgb(16, 30, 98);
+  border-radius: 0.5rem;
+  width: 35vw;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.TeamCard h2 {
+  font-size: 27pt;
+}
+.CardContainer a {
+  text-align: center;
+  text-decoration: none;
+  width: 35vw;
+  color: white;
+}
+/*CHECKBOX*/
+.CheckBox input[type='checkbox'] {
+  text-align: center;
+  width: 2.5rem;
+  width: 28px;
+  min-width: 28px;
+  height: 2.5rem;
+  height: 28px;
+  min-height: 28px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.CheckBox input[type='checkbox']:focus + team.name {
+  color: orangered;
+}
+.TeamDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 2pt solid red;
+}
+.TeamDetails .WinLoss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  margin: 5px;
+  background-color: goldenrod;
+  color: white;
+  box-shadow: 2px 3px 5px #878787;
+  /* border-radius: 0.5rem; */
+  width: 35vw;
+  /* border: 2pt solid red; */
+}
+.Row-1 {
+  /* border: 2pt solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  padding: 5px;
+  border: 2pt solid rgb(255, 187, 0);
+}
+.Row-2 {
+  /* border: 2pt solid red; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  padding: 5px;
+  border: 2pt solid rgb(63, 173, 0);
+}
+.Column-1 {
+  /* border: 2pt solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  width: 30vw;
+  padding: 5px;
+  border: 2pt solid rgb(0, 112, 173);
+  margin: 5px;
+}
+.Column-2 {
+  /* border: 2pt solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  width: 30vw;
+  padding: 5px;
+  border: 2pt solid rgb(0, 112, 173);
+  margin: 5px;
+}
+.Column-3 {
+  /* border: 2pt solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  width: 30vw;
+  padding: 5px;
+  border: 2pt solid rgb(0, 112, 173);
+  margin: 5px;
+}
+
+.PieDiv {
+  padding: 5px;
+  width: 50%;
+}
+
+.On {
+  /* border: 1pt solid red; */
+  padding: 5px;
+  width: 60%;
+}
+.Off {
+  display: none;
+}
